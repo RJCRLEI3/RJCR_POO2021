@@ -7,7 +7,7 @@
  */
 public class AppStart
 {
-    public static void main() {
+    public void main() {
         Size size = Size.MEDIUM;
         System.out.println("Name        :            " + size.name());
         System.out.println("toString()  :            " + size.toString().trim());

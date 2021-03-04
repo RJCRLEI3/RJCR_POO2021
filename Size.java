@@ -24,24 +24,49 @@ public enum Size {
         this.maxValue=maxValue;
         this.code=code;
     }
-
+    
+    /**
+     * envia uma String
+     * 
+     * @return String
+     */
     @Override
     public String toString() {
         return this.description;
     }
 
+    /**
+     * envia uma String
+     * 
+     * @return description
+     */
     public String getDescription() {
         return description;
     }
 
+    /**
+     * envia uma int
+     * 
+     * @return minValue
+     */
     public int getMinValue() {
         return minValue;
     }
 
+    /**
+     * envia uma int
+     * 
+     * @return maxValue
+     */
     public int getMaxValue() {
         return maxValue;
     }
 
+    /**
+     * envia uma char
+     * 
+     * @return code
+     */
     public char getCode() {
         return code;
     }
